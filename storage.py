@@ -15,6 +15,7 @@ instruments = {
     }
 }
 
-orders = {}     # orderId -> order details
-trades = []     # list of executed trades
-holdings = {}   # symbol -> { quantity, averagePrice }
+orders = {}     
+trades = []     
+holdings = {}  
+
