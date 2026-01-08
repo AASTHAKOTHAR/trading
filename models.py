@@ -13,4 +13,5 @@ class OrderRequest(BaseModel):
     side: str                  # BUY / SELL
     orderType: str             # MARKET / LIMIT
     quantity: int = Field(..., gt=0)   # quantity > 0
-    price: Optional[float] = None      # required for LIMIT
+    price: Optional[float] = None      
+
