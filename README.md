@@ -26,5 +26,4 @@
 ## Wrapper SDK
 - TradingClient class abstracts REST calls
 
-## Sample Usage
-(mention Swagger or SDK examples)
+
